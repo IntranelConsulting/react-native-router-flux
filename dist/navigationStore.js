@@ -192,7 +192,7 @@ _react2.default.createElement(LeftNavBarButton,_extends({},params,navigationPara
 init?null:renderBackButton&&renderBackButton(state)||_react2.default.createElement(BackNavBarButton,_extends({},state,{__source:{fileName:_jsxFileName,lineNumber:192}})));
 }
 
-if(!props.initial){
+if(!props.initial&&!props.showMenuIcon){
 res.headerLeft=renderBackButton&&renderBackButton(state)||_react2.default.createElement(BackNavBarButton,_extends({},state,{__source:{fileName:_jsxFileName,lineNumber:196}}));
 }
 

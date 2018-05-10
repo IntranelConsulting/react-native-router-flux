@@ -192,7 +192,7 @@ function createNavigationOptions(params) {
         || (init ? null : (renderBackButton && renderBackButton(state)) || <BackNavBarButton {...state} />);
     }
 
-    if (!props.initial) {
+    if (!props.initial && !props.showMenuIcon) {
       res.headerLeft = (renderBackButton && renderBackButton(state)) || <BackNavBarButton {...state} />;
     }
 
